@@ -9,12 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(importImage))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareImage))
     }
 
-
+    @IBAction func setTopText(_ sender: UIButton) {
+    }
+    
+    @IBAction func setBottomText(_ sender: UIButton) {
+    }
+    
+    @objc func importImage() {
+        
+    }
+    
+    @objc func shareImage() {
+        
+    }
 }
 
