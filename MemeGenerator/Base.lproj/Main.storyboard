@@ -22,7 +22,7 @@
                                     <action selector="setTopText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Aq-lG-O9n"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWw-7u-FEg">
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWw-7u-FEg">
                                 <rect key="frame" x="151.5" y="832" width="111" height="30"/>
                                 <state key="normal" title="Add bottom text"/>
                                 <connections>
@@ -38,10 +38,10 @@
                             <constraint firstItem="aWw-7u-FEg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3xO-he-aRf"/>
                             <constraint firstItem="qAP-ae-ur7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BpW-9J-wTe"/>
                             <constraint firstItem="aWw-7u-FEg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Edq-gR-6xw"/>
-                            <constraint firstItem="wlm-Ll-w8E" firstAttribute="top" secondItem="qAP-ae-ur7" secondAttribute="bottom" id="ExI-Ol-vzx"/>
+                            <constraint firstItem="wlm-Ll-w8E" firstAttribute="top" secondItem="qAP-ae-ur7" secondAttribute="bottom" priority="250" id="ExI-Ol-vzx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wlm-Ll-w8E" secondAttribute="trailing" id="HGg-h7-urJ"/>
                             <constraint firstItem="wlm-Ll-w8E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="daE-89-uAx"/>
-                            <constraint firstItem="aWw-7u-FEg" firstAttribute="top" secondItem="wlm-Ll-w8E" secondAttribute="bottom" id="u9O-RI-hpa"/>
+                            <constraint firstItem="aWw-7u-FEg" firstAttribute="top" secondItem="wlm-Ll-w8E" secondAttribute="bottom" priority="250" id="u9O-RI-hpa"/>
                             <constraint firstItem="qAP-ae-ur7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yyz-Rm-SqH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
