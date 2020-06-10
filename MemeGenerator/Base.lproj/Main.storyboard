@@ -48,7 +48,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="vhc-Wr-4A5"/>
                     <connections>
+                        <outlet property="bottomTextButton" destination="aWw-7u-FEg" id="97T-Nb-Pu0"/>
                         <outlet property="imageView" destination="wlm-Ll-w8E" id="TMf-1m-dek"/>
+                        <outlet property="topTextButton" destination="qAP-ae-ur7" id="0Qw-dA-PXS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
